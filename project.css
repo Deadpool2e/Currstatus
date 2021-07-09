@@ -1,0 +1,257 @@
+.nav1 {
+  background: linear-gradient(to right, #28d1fbe3, #ffccff);
+}
+.nav2 {
+  height: 30px;
+}
+.nav1 .navbar-brand {
+  font-size: 1.8em;
+  font-weight: 900;
+  font-family: "Otomanopee One", sans-serif;
+  background: -webkit-linear-gradient(
+    rgba(248, 34, 27, 0.931),
+    rgba(16, 39, 253, 0.829)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.nav1 .nav-link {
+  font-weight: 550;
+  font-family: "Arimo", sans-serif;
+}
+.nav2 .nav-link {
+  font-size: 0.8em;
+  font-weight: 550;
+  font-family: "Poppins", sans-serif;
+}
+
+#head {
+  color: rgb(119, 0, 0);
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  padding: 40px;
+  text-decoration: underline;
+}
+.cont {
+  background-color: rgb(246, 210, 179);
+  padding-bottom: 90px;
+  height: 430px;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.container {
+  background-color: rgb(248, 199, 63);
+  border-radius: 20px;
+  width: 550px;
+}
+
+.items {
+  text-align: center;
+  padding: 20px;
+}
+
+#i1,
+#i2,
+#i3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+#e1,
+#h1,
+#g1 {
+  font-weight: 800;
+  text-decoration: underline;
+  font-family: "Lexend", sans-serif;
+}
+button {
+  background-color: brown;
+  color: rgb(208, 255, 0);
+  border-radius: 10px;
+  text-shadow: 1px 1px black;
+  box-shadow: 5px 5px 20px 0.1px gray;
+  cursor: pointer;
+  font-family: "Roboto Slab", serif;
+}
+button:hover {
+  background-color: rgb(6, 142, 253);
+}
+a {
+  color: rgb(208, 255, 0);
+}
+a:hover {
+  text-decoration: none;
+  color: rgb(208, 255, 0);
+}
+footer {
+  position: fixed;
+  height: 30px;
+  bottom: 0;
+  padding: auto;
+  color: #fff;
+  width: 100%;
+  background: #00003e;
+  background: -webkit-linear-gradient(to right, #31bde6, #00003e);
+  background: linear-gradient(to right, #31bde6, #00003e);
+  text-align: center;
+}
+footer span:hover {
+  cursor: pointer;
+}
+.cont1 {
+  background-color: rgba(245, 126, 186, 0.657);
+  text-align: center;
+  height: 430px;
+}
+.container1 {
+  background-color: #3072bdde;
+  width: 710px;
+  padding: 20px;
+  margin-left: 199px;
+  margin-top: 20px;
+  border-radius: 25px;
+}
+.mainhead {
+  padding: 20px;
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-align: center;
+}
+#reset {
+  box-shadow: 5px 5px 50px 0px gray;
+}
+input {
+  border-radius: 10px;
+  font-weight: 400;
+}
+input:focus {
+  outline: none;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+select {
+  border-radius: 5px;
+  font-weight: 400;
+}
+.cont2 {
+  background-color: #84a05f;
+  text-align: center;
+  padding: 20px;
+}
+.cont3 {
+  background-color: #885fa0;
+  text-align: center;
+  padding: 20px;
+  height: 430px;
+}
+.container3 {
+  display: flex;
+  flex-direction: column;
+
+  background-color: thistle;
+  height: 150px;
+  width: 350px;
+  margin-left: 340px;
+  border-radius: 30px;
+  padding: 10px;
+}
+#equal {
+  font-size: 30px;
+  font-weight: 900;
+  color: #120077;
+}
+.maintable th h1 {
+  font-weight: bold;
+  font-size: 1em;
+  text-align: left;
+  color: #248bbb;
+}
+
+.maintable td {
+  font-weight: normal;
+  font-size: 1em;
+  -webkit-box-shadow: 0 2px 2px -2px #0e1119;
+  -moz-box-shadow: 0 2px 2px -2px #0e1119;
+  box-shadow: 0 2px 2px -2px #0e1119;
+}
+
+.maintable {
+  text-align: left;
+  overflow: hidden;
+  width: 80%;
+  margin: 0 auto;
+  display: table;
+  padding: 20px;
+}
+
+.maintable td,
+.maintable th {
+  padding-bottom: 2%;
+  padding-top: 2%;
+  padding-left: 2%;
+}
+
+.maintable tr:nth-child(odd) {
+  background-color: #323c50;
+}
+
+.maintable tr:nth-child(even) {
+  background-color: #2c3446;
+}
+
+.maintable th {
+  color: #31bde6;
+  background-color: #1f2739;
+}
+
+.maintable td {
+  color: #d6bcb2;
+  font-weight: 400;
+}
+.maintable td:first-child {
+  color: #f04242;
+}
+
+.maintable tr:hover {
+  background-color: #3f3635;
+}
+
+.maintable td:hover {
+  background-color: #ffaa64;
+  color: #382e2d;
+  font-weight: bold;
+}
+.coinname {
+  font-size: 20px;
+  font-weight: 500;
+}
+#coin,
+#symbol {
+  font-size: 17px;
+  font-weight: 500;
+}
+.container1,
+.container,
+.container3 {
+  box-shadow: 10px 10px 80px 0.1px gray;
+}
+.note {
+  padding: 10px;
+  color: #860000;
+}
+@media (max-width: 800px) {
+  .maintable td:nth-child(4),
+  .maintable th:nth-child(4) {
+    display: none;
+  }
+}
